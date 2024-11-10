@@ -1,0 +1,5 @@
+for EVENT in EVENT1 EVENT2 EVENT3 EVENT4
+do
+   cp -r DATA $EVENT/
+   cp -r DATABASES_MPI $EVENT/
+done
